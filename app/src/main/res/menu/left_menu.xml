@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="简介" >
+
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:id="@+id/menu_qxjj" android:icon="@mipmap/ic_launcher" android:title="枪械简介"></item>
+                <item android:id="@+id/menu_rwjj" android:icon="@mipmap/ic_launcher" android:title="人物简介"></item>
+                <item android:id="@+id/menu_pjjj" android:icon="@mipmap/ic_launcher" android:title="配件简介"></item>
+                <item android:id="@+id/menu_ktjj" android:icon="@mipmap/ic_launcher" android:title="空投简介"></item>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="攻略">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu_bar" android:icon="@mipmap/ic_launcher" android:title="Snackbar"></item>
+                <item android:id="@+id/menu_login" android:icon="@mipmap/ic_launcher" android:title="登录"></item>
+            </group>
+        </menu>
+    </item>
+
+</menu>
